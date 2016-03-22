@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('13.76.213.131','root','baabteadmin123!','facebook');
+$conn = mysqli_connect('13.76.213.131','root','baabteadmin123!','facebookJithin');
 if(isset($_REQUEST['email'])  && isset($_REQUEST['fname']) && isset($_REQUEST['lname']) && isset($_REQUEST['password'])&& isset($_REQUEST['day']) && isset($_REQUEST['month']) && isset($_REQUEST['year']) && isset($_REQUEST['gender']) )
 {
 
