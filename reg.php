@@ -31,7 +31,7 @@ $query = "insert into tbl_facebook_members (vchr_first_name,vchr_last_name,vchr_
  echo "$email,$firstname,$lastname,$password,$day,$month,$year,$gender";
 }
 else
-	{$er = array("Error"=>"error in input");
+	{$er = array("Error"=>"error in i nput");
 header('Content-type: application/json');
 echo json_encode($er);}
 ?>
